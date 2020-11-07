@@ -2,4 +2,24 @@ Rep P
 by Sanjay 
 on seventh october
 ....
+lib(shieny)
+lib(ggplt2)
+lib(deplyr)
+## we chose what we work on
 
+em <- emrls[,c(1;8,5)]
+
+## now we apply the calculations
+shienysvr(fun(i, o) {
+o$plt <- rdrPlt({
+      ##we choose the stones we require
+        em <- fil(emrald, gr(i$fcut, fcut), gr(i$dcol, dcol), gr(i$clr, clr))
+        ## now we make a modal out of the recieved data 
+        theft <- Im( sp~emcarot, em)
+##now our comments on the price
+           com <- find(theft, emdata = data.frm(emcarat = i$emcar,
+                                                  fcut = i$fcut,
+                                                  dcol = i$dcol,
+                                                  clr = i$clr))
+                                              })    
+                                              
