@@ -19,8 +19,8 @@ and we also bring out the ggplt2 pack
 the emralds are about sixty thusand and has eight var
 
 
-library(ggplot2)
-summary(emrald)
+lib(ggplt2)
+sum(emrald)
 
 
 Shiny files
