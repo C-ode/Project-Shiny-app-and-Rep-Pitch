@@ -2,4 +2,26 @@ my shiney proj
 by sanjay 
 oct seventh 
 ........
+ 
+the final goal of this is to presentation is to calculate the price of emrald stone
+
+The presentaion shows how some factors influence the quality of the emrald stone
+the factors are as below
+-the carot
+-the precision of cut
+-the darkness
+-the clearness
+now we have to analise it and make a graph
+
+
+we are using the emrald's set of data 
+and we also bring out the ggplt2 pack 
+the emralds are about sixty thusand and has eight var
+
+
+library(ggplot2)
+summary(emrald)
+
+
+Shiny files
 
